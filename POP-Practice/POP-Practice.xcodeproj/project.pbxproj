@@ -19,6 +19,8 @@
 		B0EE625525D199EF00F01143 /* Vehicle+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE625425D199EF00F01143 /* Vehicle+Class.swift */; };
 		B0EE625A25D19B9C00F01143 /* BurgerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE625925D19B9C00F01143 /* BurgerBuilder.swift */; };
 		B0EE625F25D19FBA00F01143 /* AnotherBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE625E25D19FBA00F01143 /* AnotherBuilder.swift */; };
+		B0EE626625D1A48300F01143 /* MyCpp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B0EE626425D1A48300F01143 /* MyCpp.cpp */; };
+		B0EE626B25D1A4D800F01143 /* CWrapper.mm in Sources */ = {isa = PBXBuildFile; fileRef = B0EE626A25D1A4D800F01143 /* CWrapper.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,11 @@
 		B0EE625425D199EF00F01143 /* Vehicle+Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle+Class.swift"; sourceTree = "<group>"; };
 		B0EE625925D19B9C00F01143 /* BurgerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerBuilder.swift; sourceTree = "<group>"; };
 		B0EE625E25D19FBA00F01143 /* AnotherBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnotherBuilder.swift; sourceTree = "<group>"; };
+		B0EE626325D1A48300F01143 /* POP-Practice-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "POP-Practice-Bridging-Header.h"; sourceTree = "<group>"; };
+		B0EE626425D1A48300F01143 /* MyCpp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = MyCpp.cpp; sourceTree = "<group>"; };
+		B0EE626525D1A48300F01143 /* MyCpp.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = MyCpp.hpp; sourceTree = "<group>"; };
+		B0EE626A25D1A4D800F01143 /* CWrapper.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = CWrapper.mm; sourceTree = "<group>"; };
+		B0EE626F25D1A4E200F01143 /* CWrapper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CWrapper.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +125,11 @@
 				B0EE625425D199EF00F01143 /* Vehicle+Class.swift */,
 				B0EE625925D19B9C00F01143 /* BurgerBuilder.swift */,
 				B0EE625E25D19FBA00F01143 /* AnotherBuilder.swift */,
+				B0EE626425D1A48300F01143 /* MyCpp.cpp */,
+				B0EE626525D1A48300F01143 /* MyCpp.hpp */,
+				B0EE626325D1A48300F01143 /* POP-Practice-Bridging-Header.h */,
+				B0EE626A25D1A4D800F01143 /* CWrapper.mm */,
+				B0EE626F25D1A4E200F01143 /* CWrapper.h */,
 			);
 			path = "POP-Practice";
 			sourceTree = "<group>";
@@ -207,6 +219,7 @@
 				TargetAttributes = {
 					B0EE621825D1972700F01143 = {
 						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
 					};
 					B0EE622E25D1972800F01143 = {
 						CreatedOnToolsVersion = 12.4;
@@ -273,6 +286,8 @@
 				B0EE622125D1972700F01143 /* ViewController.swift in Sources */,
 				B0EE621D25D1972700F01143 /* AppDelegate.swift in Sources */,
 				B0EE625025D199DE00F01143 /* Vehicle+Protocol.swift in Sources */,
+				B0EE626625D1A48300F01143 /* MyCpp.cpp in Sources */,
+				B0EE626B25D1A4D800F01143 /* CWrapper.mm in Sources */,
 				B0EE625525D199EF00F01143 /* Vehicle+Class.swift in Sources */,
 				B0EE625A25D19B9C00F01143 /* BurgerBuilder.swift in Sources */,
 				B0EE621F25D1972700F01143 /* SceneDelegate.swift in Sources */,
@@ -452,6 +467,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M79H9K226Y;
 				INFOPLIST_FILE = "POP-Practice/Info.plist";
@@ -461,6 +477,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.denny.POP-Practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "POP-Practice/POP-Practice-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -471,6 +489,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M79H9K226Y;
 				INFOPLIST_FILE = "POP-Practice/Info.plist";
@@ -480,6 +499,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.denny.POP-Practice";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "POP-Practice/POP-Practice-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
