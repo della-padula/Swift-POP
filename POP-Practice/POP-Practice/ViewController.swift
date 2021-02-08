@@ -26,6 +26,13 @@ class ViewController: UIViewController {
         
         myCheeseBurger.tomato = false
         myCheeseBurger.showBurger()
+        
+        var burgerBuilder = AnotherBurgerBuilder()
+        burgerBuilder.setCheese(choice: true)
+        burgerBuilder.setBacon(choice: true)
+        var dennyBurger = burgerBuilder.buildBurgerOld(name: "Denny's Burger")
+        dennyBurger.showBurger()
+        
     }
 
     func takeHit<T: Vehicle>(vehicle: inout T) {
