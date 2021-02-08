@@ -15,6 +15,17 @@ class ViewController: UIViewController {
         var tank = Tank()
         takeHit(vehicle: &tank)
         print(tank.hitPointsRemaining())
+        print("")
+        
+        var myBurger = Burger(builder: HamburgerBuilder())
+        myBurger.showBurger()
+        print("")
+        
+        var myCheeseBurgerBuilder = CheeseBurgerBuilder()
+        var myCheeseBurger = Burger(builder: myCheeseBurgerBuilder)
+        
+        myCheeseBurger.tomato = false
+        myCheeseBurger.showBurger()
     }
 
     func takeHit<T: Vehicle>(vehicle: inout T) {

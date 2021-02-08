@@ -17,6 +17,7 @@
 		B0EE623F25D1972800F01143 /* POP_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE623E25D1972800F01143 /* POP_PracticeUITests.swift */; };
 		B0EE625025D199DE00F01143 /* Vehicle+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE624F25D199DE00F01143 /* Vehicle+Protocol.swift */; };
 		B0EE625525D199EF00F01143 /* Vehicle+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE625425D199EF00F01143 /* Vehicle+Class.swift */; };
+		B0EE625A25D19B9C00F01143 /* BurgerBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE625925D19B9C00F01143 /* BurgerBuilder.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B0EE624025D1972800F01143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B0EE624F25D199DE00F01143 /* Vehicle+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle+Protocol.swift"; sourceTree = "<group>"; };
 		B0EE625425D199EF00F01143 /* Vehicle+Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle+Class.swift"; sourceTree = "<group>"; };
+		B0EE625925D19B9C00F01143 /* BurgerBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BurgerBuilder.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				B0EE622A25D1972800F01143 /* Info.plist */,
 				B0EE624F25D199DE00F01143 /* Vehicle+Protocol.swift */,
 				B0EE625425D199EF00F01143 /* Vehicle+Class.swift */,
+				B0EE625925D19B9C00F01143 /* BurgerBuilder.swift */,
 			);
 			path = "POP-Practice";
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 				B0EE621D25D1972700F01143 /* AppDelegate.swift in Sources */,
 				B0EE625025D199DE00F01143 /* Vehicle+Protocol.swift in Sources */,
 				B0EE625525D199EF00F01143 /* Vehicle+Class.swift in Sources */,
+				B0EE625A25D19B9C00F01143 /* BurgerBuilder.swift in Sources */,
 				B0EE621F25D1972700F01143 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
