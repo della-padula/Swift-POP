@@ -11,9 +11,14 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        var tank = Tank()
+        takeHit(vehicle: &tank)
+        print(tank.hitPointsRemaining())
     }
 
-
+    func takeHit<T: Vehicle>(vehicle: inout T) {
+        vehicle.takeHit(amount: 10)
+    }
 }
 

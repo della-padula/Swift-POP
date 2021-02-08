@@ -15,6 +15,8 @@
 		B0EE622925D1972800F01143 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0EE622725D1972800F01143 /* LaunchScreen.storyboard */; };
 		B0EE623425D1972800F01143 /* POP_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE623325D1972800F01143 /* POP_PracticeTests.swift */; };
 		B0EE623F25D1972800F01143 /* POP_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE623E25D1972800F01143 /* POP_PracticeUITests.swift */; };
+		B0EE625025D199DE00F01143 /* Vehicle+Protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE624F25D199DE00F01143 /* Vehicle+Protocol.swift */; };
+		B0EE625525D199EF00F01143 /* Vehicle+Class.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0EE625425D199EF00F01143 /* Vehicle+Class.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		B0EE623A25D1972800F01143 /* POP-PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "POP-PracticeUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0EE623E25D1972800F01143 /* POP_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = POP_PracticeUITests.swift; sourceTree = "<group>"; };
 		B0EE624025D1972800F01143 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0EE624F25D199DE00F01143 /* Vehicle+Protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle+Protocol.swift"; sourceTree = "<group>"; };
+		B0EE625425D199EF00F01143 /* Vehicle+Class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Vehicle+Class.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				B0EE622525D1972800F01143 /* Assets.xcassets */,
 				B0EE622725D1972800F01143 /* LaunchScreen.storyboard */,
 				B0EE622A25D1972800F01143 /* Info.plist */,
+				B0EE624F25D199DE00F01143 /* Vehicle+Protocol.swift */,
+				B0EE625425D199EF00F01143 /* Vehicle+Class.swift */,
 			);
 			path = "POP-Practice";
 			sourceTree = "<group>";
@@ -260,6 +266,8 @@
 			files = (
 				B0EE622125D1972700F01143 /* ViewController.swift in Sources */,
 				B0EE621D25D1972700F01143 /* AppDelegate.swift in Sources */,
+				B0EE625025D199DE00F01143 /* Vehicle+Protocol.swift in Sources */,
+				B0EE625525D199EF00F01143 /* Vehicle+Class.swift in Sources */,
 				B0EE621F25D1972700F01143 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
